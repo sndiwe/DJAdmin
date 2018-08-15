@@ -2,7 +2,7 @@
 
   <vuestic-navbar>
     <header-selector slot="selector" :isOpen.sync="valueProxy"/>
-    <span slot="logo" class="i-vuestic"></span>
+    <h4 slot="logo">NDIWE CORP.</h4>
     <span slot="center">
       {{$t('navbar.messageUs')}}&nbsp;<a href="mailto:hello@epicmax.co">hello@epicmax.co</a>
     </span>
@@ -10,7 +10,7 @@
     <notification-dropdown/>
     <language-dropdown/>
     <profile-dropdown>
-      <img src="https://i.imgur.com/nfa5itq.png"/>
+      <img src="../../../assets/images/djFace.png"/>
     </profile-dropdown>
   </vuestic-navbar>
 
